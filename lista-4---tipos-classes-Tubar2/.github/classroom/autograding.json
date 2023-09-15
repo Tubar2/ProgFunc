@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "eval, evalStr, evalV",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m eval\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "compile",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m compile\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "runBytecode",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m runBytecode\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "display",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m display\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

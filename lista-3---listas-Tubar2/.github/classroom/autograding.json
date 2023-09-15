@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Parte 1",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m Parte-1\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "Parte 2",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m Parte-2\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}

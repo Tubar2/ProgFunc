@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Functor",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m Functor\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Applicative",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m Applicative\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Alternative",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m Alternative\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "intOrUpperCase",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m intOrUpper\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "orMore",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m zeroOrMore\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Parsers",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m Parsers\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "SExpr",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m SExpr\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}

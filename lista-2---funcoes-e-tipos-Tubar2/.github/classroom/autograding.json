@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "stdLogic-show",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m stdLogic-show\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "stdLogic-eq",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m stdLogic-eq\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "stdLogic-adder",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m stdLogic-adder\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "stdLogic-mux",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m stdLogic-mux\" ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "complex-num",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m complex-num\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "complex-predicates",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m complex-predicates\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "complex-conversion",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m complex-conversion\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "complex-show",
+      "setup": "",
+      "run": "stack test --test-arguments \"-m complex-show\" ",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
